@@ -10,17 +10,16 @@ It takes about 20 minutes on my laptop to complete.
 
 My laptop hardware configuration overview:
 
-|Model Name				        |MacBook Pro           |
-|-------------------------------|----------------------|
-|Model Identifier				|MacBookPro15,1        |
-|Processor Name				    |8-Core Intel Core i9  |
-|Processor Speed				|2.3 GHz               |
-|Number of Processors			|1                     |
-|Total Number of Cores			|8                     |
-|L2 Cache (per Core)			|256 KB                |
-|L3 Cache				        |16 MB                 |
-|Hyper-Threading Technology		|Enabled               |
-|Memory				            |16 GB                 |
+|Model Name                        |MacBook Pro           |
+|Model Identifier                |MacBookPro15,1        |
+|Processor Name                    |8-Core Intel Core i9  |
+|Processor Speed                |2.3 GHz               |
+|Number of Processors            |1                     |
+|Total Number of Cores            |8                     |
+|L2 Cache (per Core)            |256 KB                |
+|L3 Cache                        |16 MB                 |
+|Hyper-Threading Technology        |Enabled               |
+|Memory                            |16 GB                 |
 
 ## MT_compare.py:
 
