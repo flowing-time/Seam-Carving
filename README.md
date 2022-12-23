@@ -9,16 +9,18 @@ This is the main python script to generate all replicated images. It can run dir
 It takes about 20 minutes on my laptop to complete.
 
 My laptop hardware configuration overview:
- Model Name:    MacBook Pro
- Model Identifier:    MacBookPro15,1
- Processor Name:    8-Core Intel Core i9
- Processor Speed:    2.3 GHz
- Number of Processors:    1
- Total Number of Cores:    8
- L2 Cache (per Core):    256 KB
- L3 Cache:    16 MB
- Hyper-Threading Technology:    Enabled
- Memory:    16 GB
+
+|Model Name				        |MacBook Pro           |
+|-------------------------------|----------------------|
+|Model Identifier				|MacBookPro15,1        |
+|Processor Name				    |8-Core Intel Core i9  |
+|Processor Speed				|2.3 GHz               |
+|Number of Processors			|1                     |
+|Total Number of Cores			|8                     |
+|L2 Cache (per Core)			|256 KB                |
+|L3 Cache				        |16 MB                 |
+|Hyper-Threading Technology		|Enabled               |
+|Memory				            |16 GB                 |
 
 ## MT_compare.py:
 
@@ -33,19 +35,15 @@ Then,
 3. Assign correct directories to the 'my_path' and 'author_path' variable.
 
 Save it and run the script. It will output the following table:
-Replica                              MSE      SSIM
-
---------------------------------------------------
-
-fig5.png                          631.72      0.74
-fig8d_07.png                       85.80      0.94
-fig8f_07.png                      119.88      0.93
-fig8Comp_backward_08.png          181.05      0.83
-fig8Comp_forward_08.png           865.09      0.68
-fig9Comp_backward_08.png           67.86      0.92
-fig9Comp_forward_08.png            98.46      0.88
-
-
+|Replica                      |        MSE   |   SSIM|
+|-----------------------------|--------------|-------|
+|fig5.png                     |     631.72   |   0.74|
+|fig8d_07.png                 |      85.80   |   0.94|
+|fig8f_07.png                 |     119.88   |   0.93|
+|fig8Comp_backward_08.png     |     181.05   |   0.83|
+|fig8Comp_forward_08.png      |     865.09   |   0.68|
+|fig9Comp_backward_08.png     |      67.86   |   0.92|
+|fig9Comp_forward_08.png      |      98.46   |   0.88|
 
 ## Demo and explanation
 
